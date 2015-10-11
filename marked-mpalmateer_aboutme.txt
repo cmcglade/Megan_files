@@ -1,0 +1,29 @@
+<!DOCTYPE>
+
+<!-- always save html files as html files, not as text files!  You should enter some meaningful content in the content meta tag.  wrap your image filename in quotes, nice work on the image though. Nice use of the mailto link.  didn't use a br tag. 6 out of 10 -->
+  
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="some content">
+		<title>About Megan</title>
+	</head>
+
+	<body>
+		<h1>About Megan</h1>
+		
+		<img src=about_icon.png alt="About Megan" height="360" width="640">
+
+		<p><font color="blue">Hello!</font></p>
+		<p>My name is Megan. I'm an aspiring Interactive Media Management professional at Centennial College. I have a B.A. Hons. in English and Equity Studies from the University of Toronto. I love coffee, podcasts, and nerd culture.</p>
+		
+		<h2>Elsewhere</h2>
+		<ul>
+			<li><a href="https://ca.linkedin.com/pub/megan-palmateer/77/918/b03">LinkedIn</a></li>
+			<li><a href="https://twitter.com/megpalmateer">Twitter</a></li>
+		</ul>	
+
+		<p>You can contact me at <a href="mailto:meganpalmateer@gmail.com">meganpalmateer@gmail.com</a></p>
+		
+	</body>
+</html>
