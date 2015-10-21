@@ -1,0 +1,21 @@
+styles and colors - redcross newsletter
+
+Red		#ed1c34
+White		#ffffff
+grey		#ebece9
+Black		#090102
+Light grey	#cccccc
+
+rc_logo.gif
+rc_family.jpg
+rc_refugees.jpg
+rc_roundup.jpg
+
+facebook.png
+twitter.png
+youtube.png
+flickr.png
+
+font-family: Trebuchet MS, Arial, sans-serif; font-size 36px; font-weight; normal; line-height: 20px
+
+font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 15px
