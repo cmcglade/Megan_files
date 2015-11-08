@@ -4,12 +4,11 @@
 	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
 		<title>Shipwrecked Studios</title>
 	<style>
-	<!--CSS styling-->
-	{
+body	{
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 90%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -21,28 +20,40 @@
 	border: 2px solid black;
 }
 
-#section {
-	background-color: #ffffff;
-	margin: 10px 10px 10px 10px;
-	padding: 10px;
-	border: 2px solid black;
+.main_img {
+	max-width: 100%;
+	position: relative;
+	padding: 1px;
 }
 
 #footer {
 	background-color: #664955;
+	display: inline-block;
 	text-align: right;
-	margin: 10px 10px 10px 10px;
+	margin: 5px 5px 5px 5px;
 	border: 2px solid black;
 }
 
-ul {
-	list-style-type: none;
-	display: inline;
+.section {
+	background-color: #6d708b;
+	color:white;
+	display: inline-block;
+	float: center;
+	margin: 2px;
+	padding: 1px;
+    width: 95%;
+    height: 95%;
+	border: 2px solid black;
+}
+
+.nav {
+	display: inline-block;
 	overflow: hidden;
 }
 
 li {
-    float: left;
+	list-style-type: none;
+    float: right;
 }
 
 a {
@@ -51,29 +62,36 @@ a {
     background-color: #a4b2c5;
 }
 
-.content {
-	border: 2px solid black;
-}
-
 .boxes {
 	background-color: #a4b2c5;
     color:white;
+	display: inline-block;
 	float: left;
-    margin: 5px;
-    padding: 15px;
-    width: 300px;
-    height: 300px;
+    margin: 2px;
+    padding: 5px;
+    width: 24%;
     border: 1px solid black;
 }
 
-.img {
+.links {
+    background-color:#a4b2c5;
+    color:black;
+	display: inline-block;
+    margin: 0 0 5px 5px;
+	width: 15%;
+    border: 1px solid black;
+    float: left;
+    text-align: left;
+}
+
+.projects {
     background-color:#a4b2c5;
     color:white;
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid #0000ff;
-    height: auto;
-    width: auto;
+	display: block;
+    margin: 0 0 5px 5px;
+    padding: 2px;
+	width: 24%;
+    border: 1px solid black;
     float: left;
     text-align: center;
 }
@@ -94,84 +112,108 @@ h6 {
 </head>
 <body>
 	<header>
+		<!-- logo and navigation links -->
 		<div id="header">
 		<h1>Shipwrecked Studios</h1>
-		<!--global nav links
-			<div id="nav">-->
+			<div class="nav">
 			<ul>
-				<li><a href="">Home</a></li>
+				<li><a href="">Home</a></li> 
 				<li><a href="">About</a></li>
 				<li><a href="">Portfolio</a></li>
 				<li><a href="">Blog</a></li>
 				<li><a href="">Contact</a></li>
 			</ul>
-			<!--nav div close</div>-->
+			</div>
 		</div>
 	</header>
-<div id="content">
-	<div id="section">
-		<!--main image-->
-		<img src="mpalmateer_images/sea_main.jpg" alt="Sea"/>
-		
-		<!--coloured content boxes go here-->
-		<div class="boxes">
-			<div class="boxes_1">
-				<h2>Innovation</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit enim idem caecus, debilis. Quam nemo umquam voluptatem appellavit, appellat.</p>
-			</div>
-		
-			<div class="boxes_2">
-				<h2>Support</h2>
-				<p>Quae cum essent dicta, discessimus. Ego vero isti, inquam, permitto. Hic nihil fuit, quod quaereremus. At enim hic etiam dolore.</p>
-			</div>
-		
-			<div class="boxes_3">
-				<h2>Careers</h2>
-				<p>Omnes enim iucundum motum, quo sensus hilaretur. Quid iudicant sensus? Sit enim idem caecus, debilis. Nihil illinc huc pervenit.</p>
-			</div>
-		
-			<div class="boxes_4">
-				<h2>Partners</h2>
-				<p>Nihil sane. Duo Reges: constructio interrete. Quid ad utilitatem tantae pecuniae? Easdemne res? Sin aliud quid voles, postea. Id Sextilius factum negabat.</p>
+		<div class="section">
+			<!--main image-->
+			<div class="main_img">
+				<img src="sea_main.jpg" alt="Sea"/>
 			</div>
 		</div>
-	</div>
-	
-	<div id="articles">
-		<h6>Our Projects</h6>
-		<div class="img">
-		<!--projects 1-4 go here <img src=".jpg" alt="Project 1" style="width:220px;height:125px;"/> -->
- 			<a target="_blank" href=""><img src=".jpg" alt="Project 1" width="110" height="90"></a>
- 			<div class="desc">Add a description of the image here</div>
-		</div>
-		
-		<div class="img">
- 			<a target="_blank" href=""><img src=".jpg" alt="Project 2" width="110" height="90"></a>
-			 <div class="desc">Add a description of the image here</div>
-		</div>
-		
-		<div class="img">
- 			<a target="_blank" href=""><img src=".jpg" alt="Project 3" width="110" height="90"></a>
- 			<div class="desc">Add a description of the image here</div>
-		</div>
-		
-		<div class="img">
-			<a target="_blank" href=""><img src=".jpg" alt="Project 4" width="110" height="90"></a>
- 			<div class="desc">Add a description of the image here</div>
-		</div>
-
-	</div>
-
+		<!--content boxes -->
+			<div class="section">
+				<div class="boxes">
+					<h2>Innovation</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit enim idem caecus, debilis. Quam nemo umquam voluptatem appellavit, appellat.</p>
+				</div>
+				<div class="boxes">
+					<h2>Support</h2>
+					<p>Quae cum essent dicta, discessimus. Ego vero isti, inquam, permitto. Hic nihil fuit, quod quaereremus. At enim hic etiam dolore.</p>
+				</div>
+				<div class="boxes">
+					<h2>Careers</h2>
+					<p>Omnes enim iucundum motum, quo sensus hilaretur. Quid iudicant sensus? Sit enim idem caecus, debilis. Nihil illinc huc pervenit.</p>
+				</div>
+				<div class="boxes">
+					<h2>Partners</h2>
+					<p>Nihil sane. Duo Reges: constructio interrete. Quid ad utilitatem tantae pecuniae? Easdemne res? Sin aliud quid voles, postea. Id Sextilius factum negabat.</p>
+				</div>
+			</div>
+		<!-- projects -->
+			<div class="section">
+			<h6>Our Projects</h6>
+				<div class="projects">
+ 						<a target="_blank" href=""><img src=".jpg" alt="Project 1" width="110" height="90"></a>
+ 					<div class="desc">Add a description of the image here</div>
+				</div>
+				<div class="projects">
+ 						<a target="_blank" href=""><img src=".jpg" alt="Project 2" width="110" height="90"></a>
+					<div class="desc">Add a description of the image here</div>
+				</div>
+				<div class="projects">
+ 						<a target="_blank" href=""><img src=".jpg" alt="Project 3" width="110" height="90"></a>
+ 					<div class="desc">Add a description of the image here</div>
+				</div>
+				<div class="projects">
+						<a target="_blank" href=""><img src=".jpg" alt="Project 4" width="110" height="90"></a>
+ 					<div class="desc">Add a description of the image here</div>
+				</div>
+			</div>
 	<footer>
 		<!-- horizontal line-->
 		<hr>
+			<!--footer links-->
 			<div id="footer">
-			<!--footer links go here-->	
+				<div class="links">
+					<ul>
+						<p>Projects</p>
+						<li><a href="">Project 1</a></li> 
+						<li><a href="">Project 2</a></li>
+						<li><a href="">Project 3</a></li>
+						<li><a href="">Project 4</a></li>
+					</ul>
+				</div>
+				<div class="links">
+					<ul>
+						<p>Who We Are</p>
+						<li><a href="">About Us</a></li> 
+						<li><a href="">Contact</a></li>
+						<li><a href="">Careers</a></li>
+						<li><a href="">Press</a></li>
+					</ul>
+				</div>
+				<div class="links">
+					<ul>
+						<p>Quick Links</p>
+						<li><a href="">Blog</a></li> 
+						<li><a href="">Portfolio</a></li>
+						<li><a href="">Projects</a></li>
+						<li><a href="">Contacts</a></li>
+					</ul>
+				</div>
+				<div class="links">
+					<ul>
+						<p>Legal</p>
+						<li><a href="">Terms of Service</a></li> 
+						<li><a href="">Privacy Policy</a></li>
+						<li><a href="">Disclaimer</a></li>
+					</ul>
+				</div>
 			</div>
-<!--close content div-->
-</div>
-		<p>Connect:</p>
-		<!--social media icons go here-->
 	</footer>
+		<p>Connect:</p>
+		<!--social media-->
 </body>
 </html>
