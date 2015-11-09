@@ -2,218 +2,123 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
-		<title>Shipwrecked Studios</title>
-	<style>
-body	{
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 90%;
-	font: inherit;
-	vertical-align: baseline;
-}
-
-#header {
-	background-color: #e1ddda;
-	margin: 10px 10px 10px 10px;
-	padding: 5px;
-	border: 2px solid black;
-}
-
-.main_img {
-	max-width: 100%;
-	position: relative;
-	padding: 1px;
-}
-
-#footer {
-	background-color: #664955;
-	display: inline-block;
-	text-align: right;
-	margin: 5px 5px 5px 5px;
-	border: 2px solid black;
-}
-
-.section {
-	background-color: #6d708b;
-	color:white;
-	display: inline-block;
-	float: center;
-	margin: 2px;
-	padding: 1px;
-    width: 95%;
-    height: 95%;
-	border: 2px solid black;
-}
-
-.nav {
-	display: inline-block;
-	overflow: hidden;
-}
-
-li {
-	list-style-type: none;
-    float: right;
-}
-
-a {
-    display: block;
-    width: 60px;
-    background-color: #a4b2c5;
-}
-
-.boxes {
-	background-color: #a4b2c5;
-    color:white;
-	display: inline-block;
-	float: left;
-    margin: 2px;
-    padding: 5px;
-    width: 24%;
-    border: 1px solid black;
-}
-
-.links {
-    background-color:#a4b2c5;
-    color:black;
-	display: inline-block;
-    margin: 0 0 5px 5px;
-	width: 15%;
-    border: 1px solid black;
-    float: left;
-    text-align: left;
-}
-
-.projects {
-    background-color:#a4b2c5;
-    color:white;
-	display: block;
-    margin: 0 0 5px 5px;
-    padding: 2px;
-	width: 24%;
-    border: 1px solid black;
-    float: left;
-    text-align: center;
-}
-
-h1 {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 18px;
-	font-weight: bold;
-	border: 2px solid black;
-}
-
-h6 {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px;
-	font-weight: bold;
-}
-	</style>
-</head>
+	<title>Shipwrecked Studios</title>
+	<!-- link to stylesheet -->
+	<link rel="stylesheet" type="text/css" href="mpalmateer_fluid_stylesheet.css"/>
 <body>
-	<header>
-		<!-- logo and navigation links -->
+<div id="wrapper">
+	<!--header section-->
 		<div id="header">
-		<h1>Shipwrecked Studios</h1>
-			<div class="nav">
-			<ul>
+			<h1>Shipwrecked Studios</h1>
+		</div>
+		<div class="nav">
+			<ul id="nav">
 				<li><a href="">Home</a></li> 
 				<li><a href="">About</a></li>
 				<li><a href="">Portfolio</a></li>
 				<li><a href="">Blog</a></li>
 				<li><a href="">Contact</a></li>
 			</ul>
+		</div>
+	<div id="content">
+		<!--featured image-->
+		<div class="featured">
+			<img src="mpalmateer_images/sea_main.jpg" alt="Sea" class="inline"/>
+		</div>
+			<!--coloured content boxes-->
+			<div class="col1">
+				<h2>Innovation</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit enim idem caecus, debilis. Quam nemo umquam voluptatem appellavit, appellat.</p>
+				<img src="mpalmateer_images/readmore.jpg" alt="Read More"/>
+			</div>
+			<div class="col2">
+				<h3>Support</h3>
+				<p>Quae cum essent dicta, discessimus. Ego vero isti, inquam, permitto. Hic nihil fuit, quod quaereremus. At enim hic etiam dolore.</p>
+				<img src="mpalmateer_images/readmore.jpg" alt="Read More"/>	
+			</div>
+			<div class="col3">
+				<h4>Careers</h4>
+				<p>Omnes enim iucundum motum, quo sensus hilaretur. Quid iudicant sensus? Sit enim idem caecus, debilis. Nihil illinc huc pervenit.</p>
+				<img src="mpalmateer_images/readmore.jpg" alt="Read More"/>
+			</div>
+			<div class="col4">
+				<h5>Partners</h5>
+				<p>Nihil sane. Duo Reges: constructio interrete. Quid ad utilitatem tantae pecuniae? Easdemne res? Sin aliud quid voles, postea.</p>
+				<img src="mpalmateer_images/readmore.jpg" alt="Read More"/>	
+			</div>
+		<!--projects section-->
+		<div class="projects">
+		<h6>Our Projects</h6>
+			<div class="col1_project">
+				<a target="_blank" href=""><img src="mpalmateer_images/project1.jpg" alt="Project 1"></a>
+				<p style="color:#664955">Project Alpha</p>
+ 				<p>Learn more about project alpha</p>
+			</div>
+			<div class="col2_project">
+				<a target="_blank" href=""><img src="mpalmateer_images/project2.jpg" alt="Project 2"></a>
+				<p style="color:#664955">Project Beta</p>
+ 				<p>Learn more about project beta</p>
+			</div>
+			<div class="col3_project">
+				<a target="_blank" href=""><img src="mpalmateer_images/project3.jpeg" alt="Project 3"></a>
+				<p style="color:#664955">Project Theta</p>
+ 				<p>Learn more about project theta</p>
+			</div>
+			<div class="col4_project">
+				<a target="_blank" href=""><img src="mpalmateer_images/project4.jpg" alt="Project 4"></a>
+				<p style="color:#664955">Project Gamma</p>
+ 				<p>Learn more about project gamma</p>
 			</div>
 		</div>
-	</header>
-		<div class="section">
-			<!--main image-->
-			<div class="main_img">
-				<img src="sea_main.jpg" alt="Sea"/>
-			</div>
+	<!-- closing "content" div-->
+	</div>
+	<!--footer section-->
+	<div id="footer">
+	<hr>
+		<!--footer links-->
+		<div class="links">
+			<ul>
+				<p><span style="font-weight:bold">Projects</span></p>
+				<li>Project Alpha</li> 
+				<li>Project Beta</li>
+				<li>Project Theta</li>
+				<li>Project Gamma</li>
+			</ul>
 		</div>
-		<!--content boxes -->
-			<div class="section">
-				<div class="boxes">
-					<h2>Innovation</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit enim idem caecus, debilis. Quam nemo umquam voluptatem appellavit, appellat.</p>
-				</div>
-				<div class="boxes">
-					<h2>Support</h2>
-					<p>Quae cum essent dicta, discessimus. Ego vero isti, inquam, permitto. Hic nihil fuit, quod quaereremus. At enim hic etiam dolore.</p>
-				</div>
-				<div class="boxes">
-					<h2>Careers</h2>
-					<p>Omnes enim iucundum motum, quo sensus hilaretur. Quid iudicant sensus? Sit enim idem caecus, debilis. Nihil illinc huc pervenit.</p>
-				</div>
-				<div class="boxes">
-					<h2>Partners</h2>
-					<p>Nihil sane. Duo Reges: constructio interrete. Quid ad utilitatem tantae pecuniae? Easdemne res? Sin aliud quid voles, postea. Id Sextilius factum negabat.</p>
-				</div>
-			</div>
-		<!-- projects -->
-			<div class="section">
-			<h6>Our Projects</h6>
-				<div class="projects">
- 						<a target="_blank" href=""><img src=".jpg" alt="Project 1" width="110" height="90"></a>
- 					<div class="desc">Add a description of the image here</div>
-				</div>
-				<div class="projects">
- 						<a target="_blank" href=""><img src=".jpg" alt="Project 2" width="110" height="90"></a>
-					<div class="desc">Add a description of the image here</div>
-				</div>
-				<div class="projects">
- 						<a target="_blank" href=""><img src=".jpg" alt="Project 3" width="110" height="90"></a>
- 					<div class="desc">Add a description of the image here</div>
-				</div>
-				<div class="projects">
-						<a target="_blank" href=""><img src=".jpg" alt="Project 4" width="110" height="90"></a>
- 					<div class="desc">Add a description of the image here</div>
-				</div>
-			</div>
-	<footer>
-		<!-- horizontal line-->
-		<hr>
-			<!--footer links-->
-			<div id="footer">
-				<div class="links">
-					<ul>
-						<p>Projects</p>
-						<li><a href="">Project 1</a></li> 
-						<li><a href="">Project 2</a></li>
-						<li><a href="">Project 3</a></li>
-						<li><a href="">Project 4</a></li>
-					</ul>
-				</div>
-				<div class="links">
-					<ul>
-						<p>Who We Are</p>
-						<li><a href="">About Us</a></li> 
-						<li><a href="">Contact</a></li>
-						<li><a href="">Careers</a></li>
-						<li><a href="">Press</a></li>
-					</ul>
-				</div>
-				<div class="links">
-					<ul>
-						<p>Quick Links</p>
-						<li><a href="">Blog</a></li> 
-						<li><a href="">Portfolio</a></li>
-						<li><a href="">Projects</a></li>
-						<li><a href="">Contacts</a></li>
-					</ul>
-				</div>
-				<div class="links">
-					<ul>
-						<p>Legal</p>
-						<li><a href="">Terms of Service</a></li> 
-						<li><a href="">Privacy Policy</a></li>
-						<li><a href="">Disclaimer</a></li>
-					</ul>
-				</div>
-			</div>
-	</footer>
-		<p>Connect:</p>
-		<!--social media-->
+		<div class="links">
+			<ul>
+				<p><span style="font-weight:bold">Who We Are</span></p>
+				<li>About Us</li> 
+				<li>Contact</li>
+				<li>Careers</li>
+				<li>Press</li>
+			</ul>
+		</div>
+		<div class="links">
+			<ul>
+				<p><span style="font-weight:bold">Quick Links</span></p>
+				<li>Blog</li> 
+				<li>Portfolio</li>
+				<li>Projects</li>
+				<li>Contacts</li>
+			</ul>
+		</div>
+		<div class="links">
+			<ul>
+				<p><span style="font-weight:bold">Legal</span></p>
+				<li>Terms of Service</li> 
+				<li>Privacy Policy</li>
+				<li>Disclaimer</li>
+			</ul>
+		</div>
+	<!--closing "footer" div-->
+	</div>
+	<!--social media icons-->
+	<div class="social">
+		<p>Connect:
+		<img src="mpalmateer_images/social.jpg" alt="Social Media Links" class="inline";/></p>
+	</div>
+<!--closing "wrapper" div-->
+</div>
 </body>
 </html>

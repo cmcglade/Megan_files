@@ -1,0 +1,128 @@
+/* This is the CSS stylesheet for mpalmateer_fluid_layout1.html */
+
+#wrapper {
+	border-style: solid;
+	border-color: #a4b2c5; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	font: inherit;
+	margin: 0 10% 0 10%;
+	padding: 0 1% 0 1%;
+	width: 82%;
+}
+
+#header {
+    float: left;
+	padding: 0 0 0 1%;
+	width: 30%;
+}
+
+.nav {
+	display: inline-block;
+	float: right;
+    overflow: hidden;
+	width: 35%;
+}
+
+ul#nav {
+    padding: 0;
+}
+
+ul#nav li {
+    display: inline;
+}
+
+ul#nav li a {
+    border-radius: 4px 4px 0 0;
+    color: black;
+    padding: 0 6% 0 2%;
+    text-decoration: none;
+}
+
+#content {
+	float: left;
+}
+
+.featured {
+	padding: 0 15% 0 15%;
+}
+
+.col1,.col2,.col3, .col4 {
+	float: left;
+	margin: 0 1% 0 1%;
+}
+
+.col1 { 
+	background-color: #272334;
+	padding: 0 1% 1% 1%;
+	width: 20%;
+}
+.col2 { 
+	background-color: #6d708b;
+	padding: 0 1% 1% 1%;
+	width: 20%; 
+}
+.col3 { 
+	background-color: #a4b2c5;
+	padding: 0 1% 1% 1%; 
+	width: 20%;
+}
+.col4 { 
+	background-color: #664955;
+	padding: 0 1% 1% 1%;
+	width: 20%; 
+}
+
+.projects {
+	float: left;
+	padding: 0 1% 0 1%;
+	width: 98%;
+}
+
+.col1_project,.col2_project,.col3_project, .col4_project {
+	float: left;
+	margin-bottom: 1em;
+	margin-left: 3%;
+	text-align: left;
+	width: 20%;
+}
+
+img {
+	max-width: 100%; 
+}
+
+h2, h3, h4, h5, h6 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;	
+}
+
+inline {
+	float: right;
+	margin: 0 0 1em 2em;
+	width: 45%;
+}
+
+#footer {
+	clear: both;
+	display: inline-block;
+	padding: 0 0 0 1%;
+	width: 99%;
+}
+
+ul {
+	 list-style-type: circle;
+}
+
+.links {
+	float: left;
+	margin-left: 2%;
+	width: 22%;
+}
+
+.social {
+	float: right;
+	display: inline;
+	text-align: right;
+	width: 35%;
+}
